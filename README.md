@@ -1,1 +1,1 @@
-# Makine-renmesi
+# Makine Öğrenmesi
