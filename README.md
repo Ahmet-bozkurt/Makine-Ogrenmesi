@@ -1,3 +1,4 @@
-# Makine Öğrenmesi - Machine Learning
+# Makine Öğrenmesi
+
 
 Python ile OpenCv kütüphanesi kullanılarak anlık görüntüleme ile görsellerdeki canlılığın tespiti. 
