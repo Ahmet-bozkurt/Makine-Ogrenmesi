@@ -1,4 +1,16 @@
 # Makine Öğrenmesi
 
+Canlılık Tespiti
 
-Python ile OpenCv kütüphanesi kullanılarak anlık görüntüleme ile görsellerdeki canlılığın tespiti. 
+Yüz tanıma sistemlerinde görüntüdeki yüzün gerçek bir kişiye mi yoksa dijital ortamda kaydedilmiş fotoğraf veya video gibi bir kayıt mı olduğunu CNN algoritması ile
+gerçek ve sahte olarak sınıflandırılarak ayırt edilmesi amaçlanmıştır.
+
+Projede kullanılan veri setinde doğrudan insanların fotoğraflarının kaydedildiği ve gerçek etiketinin verildiği bir dizin vardır. Aynı zamanda fotoğrafın fotoğrafı olan ve sahte olarak etiketlenmiş bir dizin daha bulunmaktadır.
+
+Bu veri seti üzerinden MobilenetV2 ile özellik çıkarımı yapılarak CNN modeline girdi sağlanmış ve çıktı olarak 0-1 aralığında bir değer üretilmiştir. Bu değerin yüzdelik oranına göre sahte ve gerçek olma durum çıkarımı yapılmıştır. 
+
+Sonrasında python ile hazırlanan nesne yönelimli bir program aracılığı ile opencv kütüphanesi yardımı ile kamerada yakalanan yüz çerçevesinin gerçek olup olmadığı test edilmiştir.
+
+Makine öğrenmesi klasöründeki canlilik.py uygulaması çalıştırıldığında dahili kamera açılarak görüntü alınmakta ve bu görüntüden yüz çerçevesi yakalanmaktadır. Yüz çerçevesi yakalamak için haarcascade frontalface default olarak isimlendirilen opencv üzerinde hazır bir paket kullanılmıştır.
+
+Python sürümü 3.6.13 olarak kullanılmıştır.
