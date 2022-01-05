@@ -16,4 +16,4 @@ Sonrasında python ile hazırlanan nesne yönelimli bir program aracılığı il
 Makine öğrenmesi klasöründeki canlilik.py uygulaması çalıştırıldığında dahili kamera açılarak görüntü alınmakta ve bu görüntüden yüz çerçevesi yakalanmaktadır. Yüz çerçevesi yakalamak için haarcascade frontalface default olarak isimlendirilen opencv üzerinde hazır bir paket kullanılmıştır.
 
 Python sürümü 3.6.13 olarak kullanılmıştır. Ortam olarak model eğitiminde python jupyter notebook ve nesne yönelimli program için de pycharm kullanılmıştır.
-Kullanılan kütüphane sürümlerinin bulunduğu bir anaconda ortam klasörü de eklenmiştir.
+Kullanılan kütüphane sürümlerinin bilgilerinin bulunduğu bir canlilik.yaml anaconda ortam yedeği de eklenmiştir.
