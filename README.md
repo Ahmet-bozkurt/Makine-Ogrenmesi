@@ -1,4 +1,4 @@
-# Makine Öğrenmesi
+# Makine Öğrenmesi ile Canlılık Tespiti
 
 Canlılık Tespiti
 
